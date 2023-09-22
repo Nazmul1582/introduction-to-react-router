@@ -1,18 +1,24 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import './App.css'
+import App from "./App.jsx"
 import './index.css'
 
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
+import About from './components/About.jsx'
+import Contact from './components/Contact.jsx'
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <h2>Welcome to react router tutorial!</h2>
+    element: <App />
   },
   {
     path: "about",
-    element: <div>This is About page</div>
+    element: <About />
+  },
+  {
+    path: "contact",
+    element: <Contact />
   }
 ])
 
