@@ -21,6 +21,16 @@
   margin: 0 20px;
   font-size: 18px;
 }
+.posts{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.post{
+  background-color: antiquewhite;
+  padding: 20px;
+  border-radius: 10px;
+}
 
 footer p{
   font-weight: bold;
