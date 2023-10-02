@@ -11,16 +11,21 @@
   align-items: center;
   gap: 50px;
 }
-
 .header div{
   font-size: 20px;
   font-weight: bold;
 }
-
 .nav a{
   margin: 0 20px;
   font-size: 18px;
 }
+a.active{
+  color: red;
+}
+a.active:hover{
+  color: red
+}
+
 .posts{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
